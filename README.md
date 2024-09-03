@@ -5,7 +5,7 @@ A responsive React app with a navigation bar, pie chart, and footer.
 ## Features
 
 Responsive navigation bar with "One," "Two," and "Three" tabs.
-Content One: Pie chart and scrollable text from JSON Placeholder.
+Different Content for each tab.
 Footer: Displays "This is the footer."
 
 ## Technologies
