@@ -14,7 +14,7 @@ const ContentTwo = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts/1')
+    fetch('https://jsonplaceholder.typicode.com/posts/2')
       .then(response => response.json())
       .then(data => {
         setData(data);

@@ -1,4 +1,4 @@
-/* src/components/Footer.css */
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -9,10 +9,10 @@ footer {
     bottom: 0;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     footer {
-      padding: 0.5rem;
+      padding: 0.3rem;
     }
   }
   
