@@ -10,7 +10,6 @@ Footer: Displays "This is the footer."
 
 ## Technologies
 React
-Chart.js
 Bootstrap
 CSS/SCSS
 
