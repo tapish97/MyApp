@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
-  const [activePage, setActivePage] = useState('One');
+  const [activePage, setActivePage] = useState('Home');
 
   const renderContent = () => {
     switch (activePage) {
@@ -18,8 +18,10 @@ function App() {
         return <ContentTwo />;
       case 'Three':
         return <ContentThree />;
+      case 'Home':
+        return <h1>Home Page</h1>;
       default:
-        return <ContentOne />;
+        return <h1>Home Page</h1>;
     }
   };
 
